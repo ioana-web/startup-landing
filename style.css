@@ -3,4 +3,37 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.text1 {
+ display:flex;
+ text-align: center;
+ color: #FFF3C7;
+}
+
+.text2{
+color:#FBF7EA;
+
+
+}
+.firstPage {
+  background: url(background.png) no-repeat center center fixed; 
+  height:100vh;
+  
+}
+
+.firstPageHeader{
+  width: 60%;
+  position: absolute;
+  top: calc(50% - 110px);
+  left: calc(50% - 421px);
+}
+.secondPage {
+  background-color: rgba(55, 66, 12, 0.5);
+  height: 100vh;
 }
